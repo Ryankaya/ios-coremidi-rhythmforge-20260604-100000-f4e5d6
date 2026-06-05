@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CF660E350802BC049512A2 /* SequencerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF72BA63A2EC5BC3EFDA900 /* SequencerModels.swift */; };
+		0995993A0FC69EF293819FD9 /* MonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7926466172DA5D9BCA0C3E89 /* MonitorView.swift */; };
+		2B393147018085CE449DCCCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58114A5EAAC0912A3B21E947 /* Assets.xcassets */; };
+		32CDE8BA5E7AD72C41C8519C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADCDA9F57B7017B53A87F4A /* ContentView.swift */; };
+		48B74B946005FF385E47525A /* SequencerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18EADA4D2673D71CC2B8CC0 /* SequencerView.swift */; };
+		5D4E395AB880936A28CB4C42 /* PianoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1811432CA1ABAF6380205 /* PianoViewModel.swift */; };
+		60A682AE2912DCCEB5451B21 /* MIDIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AEAA6F87A4E675CEE71B60 /* MIDIConstants.swift */; };
+		7736DD6E158A9B983FFD0CED /* RhythmForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B7531E6E39924D4A08DDC /* RhythmForgeApp.swift */; };
+		B2A1B9983E29C99703F93264 /* DevicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B4B9CCB6B065F103522CC /* DevicesViewModel.swift */; };
+		B921A8F90F26F5AC991E1BEC /* SequencerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305E85BB541F92E64B240E39 /* SequencerViewModel.swift */; };
+		C602B51E044D198BAFE997FA /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F2F8B34B7A18DD405D361 /* DevicesView.swift */; };
+		CA6F143DE8ACB3DD2AF42A71 /* PianoKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABEFC30662338C71BB9EB2 /* PianoKeyView.swift */; };
+		E0C870DC12D26FD71556971F /* TransportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412018E7DC6D8819063C63D /* TransportView.swift */; };
+		E0DAB8C8C44FB0E3186C038D /* PianoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F8E56D3ED72B39FB264EA8 /* PianoView.swift */; };
+		ED7F2435CA7A46B73E6F1A89 /* MIDIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37555651EAD877E2FE847A2B /* MIDIDevice.swift */; };
+		FF6D9EF788D8B2985DA6139E /* MIDIEngineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566453AB27B5220099A343E /* MIDIEngineViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03AEAA6F87A4E675CEE71B60 /* MIDIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIConstants.swift; sourceTree = "<group>"; };
+		1CF72BA63A2EC5BC3EFDA900 /* SequencerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencerModels.swift; sourceTree = "<group>"; };
+		305E85BB541F92E64B240E39 /* SequencerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencerViewModel.swift; sourceTree = "<group>"; };
+		30A1811432CA1ABAF6380205 /* PianoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoViewModel.swift; sourceTree = "<group>"; };
+		37555651EAD877E2FE847A2B /* MIDIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIDevice.swift; sourceTree = "<group>"; };
+		58114A5EAAC0912A3B21E947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E8BFFF3638B39F9222FD1E1 /* RhythmForge.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RhythmForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7926466172DA5D9BCA0C3E89 /* MonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorView.swift; sourceTree = "<group>"; };
+		810B7531E6E39924D4A08DDC /* RhythmForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmForgeApp.swift; sourceTree = "<group>"; };
+		86BB63C77F72E0ACB9319426 /* RhythmForge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RhythmForge.entitlements; sourceTree = "<group>"; };
+		9566453AB27B5220099A343E /* MIDIEngineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIEngineViewModel.swift; sourceTree = "<group>"; };
+		975B1CF8BFD5C0482E2AB468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9BABEFC30662338C71BB9EB2 /* PianoKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoKeyView.swift; sourceTree = "<group>"; };
+		A43B4B9CCB6B065F103522CC /* DevicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewModel.swift; sourceTree = "<group>"; };
+		B18EADA4D2673D71CC2B8CC0 /* SequencerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencerView.swift; sourceTree = "<group>"; };
+		C412018E7DC6D8819063C63D /* TransportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportView.swift; sourceTree = "<group>"; };
+		DC1F2F8B34B7A18DD405D361 /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
+		EADCDA9F57B7017B53A87F4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8F8E56D3ED72B39FB264EA8 /* PianoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2866E2D5B35D821A6ABD84A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03AEAA6F87A4E675CEE71B60 /* MIDIConstants.swift */,
+				37555651EAD877E2FE847A2B /* MIDIDevice.swift */,
+				1CF72BA63A2EC5BC3EFDA900 /* SequencerModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E4F2B5AE340D4FB908A99D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8BFFF3638B39F9222FD1E1 /* RhythmForge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43EFCE8C92635BE3C12887F5 /* Sequencer */ = {
+			isa = PBXGroup;
+			children = (
+				B18EADA4D2673D71CC2B8CC0 /* SequencerView.swift */,
+				C412018E7DC6D8819063C63D /* TransportView.swift */,
+			);
+			path = Sequencer;
+			sourceTree = "<group>";
+		};
+		68E15039CE8752426AE9C9C7 /* RhythmForge */ = {
+			isa = PBXGroup;
+			children = (
+				58114A5EAAC0912A3B21E947 /* Assets.xcassets */,
+				975B1CF8BFD5C0482E2AB468 /* Info.plist */,
+				86BB63C77F72E0ACB9319426 /* RhythmForge.entitlements */,
+				810B7531E6E39924D4A08DDC /* RhythmForgeApp.swift */,
+				2866E2D5B35D821A6ABD84A1 /* Models */,
+				B61C0BE94143403009FC2861 /* ViewModels */,
+				ED323DE6BC80E54D45F6A8E3 /* Views */,
+			);
+			path = RhythmForge;
+			sourceTree = "<group>";
+		};
+		92C9B5BDEB2DF486F9D522CF /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				DC1F2F8B34B7A18DD405D361 /* DevicesView.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		B61C0BE94143403009FC2861 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A43B4B9CCB6B065F103522CC /* DevicesViewModel.swift */,
+				9566453AB27B5220099A343E /* MIDIEngineViewModel.swift */,
+				30A1811432CA1ABAF6380205 /* PianoViewModel.swift */,
+				305E85BB541F92E64B240E39 /* SequencerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE593209AC1B370695551D6F = {
+			isa = PBXGroup;
+			children = (
+				68E15039CE8752426AE9C9C7 /* RhythmForge */,
+				3E4F2B5AE340D4FB908A99D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E544EAAE8A629159B3D0EFF8 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				7926466172DA5D9BCA0C3E89 /* MonitorView.swift */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		E9EFEAF14D7E8B45B5D0C241 /* Piano */ = {
+			isa = PBXGroup;
+			children = (
+				9BABEFC30662338C71BB9EB2 /* PianoKeyView.swift */,
+				F8F8E56D3ED72B39FB264EA8 /* PianoView.swift */,
+			);
+			path = Piano;
+			sourceTree = "<group>";
+		};
+		ED323DE6BC80E54D45F6A8E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EADCDA9F57B7017B53A87F4A /* ContentView.swift */,
+				92C9B5BDEB2DF486F9D522CF /* Devices */,
+				E544EAAE8A629159B3D0EFF8 /* Monitor */,
+				E9EFEAF14D7E8B45B5D0C241 /* Piano */,
+				43EFCE8C92635BE3C12887F5 /* Sequencer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC17B912328AF6E358E7A81F /* RhythmForge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F2C2DDA694B5FF54C1D6A7 /* Build configuration list for PBXNativeTarget "RhythmForge" */;
+			buildPhases = (
+				2872A15C62D22EA6C793D0F4 /* Sources */,
+				116E8CF3E1D1BCE0FDCE8853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RhythmForge;
+			packageProductDependencies = (
+			);
+			productName = RhythmForge;
+			productReference = 6E8BFFF3638B39F9222FD1E1 /* RhythmForge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB87242FE4241A6386F887C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FC17B912328AF6E358E7A81F = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = F83225A966A2615F317D4867 /* Build configuration list for PBXProject "RhythmForge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CE593209AC1B370695551D6F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC17B912328AF6E358E7A81F /* RhythmForge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116E8CF3E1D1BCE0FDCE8853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B393147018085CE449DCCCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2872A15C62D22EA6C793D0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CDE8BA5E7AD72C41C8519C /* ContentView.swift in Sources */,
+				C602B51E044D198BAFE997FA /* DevicesView.swift in Sources */,
+				B2A1B9983E29C99703F93264 /* DevicesViewModel.swift in Sources */,
+				60A682AE2912DCCEB5451B21 /* MIDIConstants.swift in Sources */,
+				ED7F2435CA7A46B73E6F1A89 /* MIDIDevice.swift in Sources */,
+				FF6D9EF788D8B2985DA6139E /* MIDIEngineViewModel.swift in Sources */,
+				0995993A0FC69EF293819FD9 /* MonitorView.swift in Sources */,
+				CA6F143DE8ACB3DD2AF42A71 /* PianoKeyView.swift in Sources */,
+				E0DAB8C8C44FB0E3186C038D /* PianoView.swift in Sources */,
+				5D4E395AB880936A28CB4C42 /* PianoViewModel.swift in Sources */,
+				7736DD6E158A9B983FFD0CED /* RhythmForgeApp.swift in Sources */,
+				01CF660E350802BC049512A2 /* SequencerModels.swift in Sources */,
+				48B74B946005FF385E47525A /* SequencerView.swift in Sources */,
+				B921A8F90F26F5AC991E1BEC /* SequencerViewModel.swift in Sources */,
+				E0C870DC12D26FD71556971F /* TransportView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1884F1D76B2C1D8D140DECE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RhythmForge/RhythmForge.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RhythmForge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryankaya.rhythmforge;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B607EE8BCE793B0C05EA37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RhythmForge/RhythmForge.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RhythmForge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryankaya.rhythmforge;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C2D9C7B00900F1B1A30B79E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B5241955F9715E4937E01E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41F2C2DDA694B5FF54C1D6A7 /* Build configuration list for PBXNativeTarget "RhythmForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884F1D76B2C1D8D140DECE2 /* Debug */,
+				7B607EE8BCE793B0C05EA37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F83225A966A2615F317D4867 /* Build configuration list for PBXProject "RhythmForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5241955F9715E4937E01E62 /* Debug */,
+				8C2D9C7B00900F1B1A30B79E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB87242FE4241A6386F887C /* Project object */;
+}
